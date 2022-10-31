@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@gitart/eslint-config-vue': ^0.2.0
+  '@gitart/eslint-config-vue': ^0.2.1
   '@mdi/font': ^7.0.96
   '@types/node': ^16.11.56
   '@vitejs/plugin-vue': ^3.0.3
@@ -21,7 +21,7 @@ specifiers:
   vue: ^3.2.38
   vue-router: ^4.1.5
   vue-tsc: ^0.40.7
-  vuetify: 3.0.0-beta.13
+  vuetify: 3.0.0-beta.15
   windicss: ^3.5.6
 
 dependencies:
@@ -29,10 +29,10 @@ dependencies:
   pinia: 2.0.22_rg374xhldfcyvjtaj3qktyfz5y
   vue: 3.2.40
   vue-router: 4.1.5_vue@3.2.40
-  vuetify: 3.0.0-beta.13_32i4yba6tsp4xixiakylwlevny
+  vuetify: 3.0.0-beta.15_32i4yba6tsp4xixiakylwlevny
 
 devDependencies:
-  '@gitart/eslint-config-vue': 0.2.0_oma37ntcsyoxqn5sr4l7ekf4na
+  '@gitart/eslint-config-vue': 0.2.1_oma37ntcsyoxqn5sr4l7ekf4na
   '@mdi/font': 7.0.96
   '@types/node': 16.11.64
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.6+vue@3.2.40
@@ -45,7 +45,7 @@ devDependencies:
   unplugin-vue-components: 0.22.8_vue@3.2.40
   unplugin-vue-router: 0.2.3_vue-router@4.1.5
   vite: 3.1.6_sass@1.55.0
-  vite-plugin-vuetify: 1.0.0_fby4pjkea6piiacainvucdwjti
+  vite-plugin-vuetify: 1.0.0_nk73svx3lk5g3xliqjozwncx2e
   vite-plugin-windicss: 1.8.8_vite@3.1.6
   vue-tsc: 0.40.13_typescript@4.7.4
   windicss: 3.5.6
@@ -128,8 +128,8 @@ packages:
       - supports-color
     dev: true
 
-  /@gitart/eslint-config-basic/0.2.0_taj4374tq64ju3xgkdrtdwfble:
-    resolution: {integrity: sha512-Jd+QWwZaXeH4w0M10NZjgMktE/BCLsIE4K+e1gpLD1qDTV40AQQYEU+BrWMDxTqjrsKxvFEHO+TcXc0N+0lGdA==}
+  /@gitart/eslint-config-basic/0.2.1_taj4374tq64ju3xgkdrtdwfble:
+    resolution: {integrity: sha512-twnNt5YRlKCa2TxF0kCmI1CWGgLSuFMKV0i/KEeuJkQg+VFDABzt4qeGTbprcdoVJAFc1pzKapTRA3nD+tHW4g==}
     peerDependencies:
       eslint: '>=8.16.0'
     dependencies:
@@ -152,13 +152,13 @@ packages:
       - supports-color
     dev: true
 
-  /@gitart/eslint-config-ts/0.2.0_oma37ntcsyoxqn5sr4l7ekf4na:
-    resolution: {integrity: sha512-XKK3CPbxCHrbfiY4YfJc8SQr65/spRxkiuxj1pklJwjLDPXANDhFR9WP8bQDMsm530m2z046XAmgE7IDHgIZyw==}
+  /@gitart/eslint-config-ts/0.2.1_oma37ntcsyoxqn5sr4l7ekf4na:
+    resolution: {integrity: sha512-8R3G+VMxMurNBqOTWFBFPj0cJrQF1VHf+ZArGXSaEuf/eTI8VQfmzLtDlt7hztaNDrDXGYi3mOedpHeMcJtuIg==}
     peerDependencies:
       eslint: '>=8.16.0'
       typescript: '>=3.3.1 <4.8.0'
     dependencies:
-      '@gitart/eslint-config-basic': 0.2.0_taj4374tq64ju3xgkdrtdwfble
+      '@gitart/eslint-config-basic': 0.2.1_taj4374tq64ju3xgkdrtdwfble
       '@typescript-eslint/eslint-plugin': 5.39.0_7ofitwjcu3mblzci5hd3mkm4pe
       '@typescript-eslint/parser': 5.39.0_oma37ntcsyoxqn5sr4l7ekf4na
       eslint: 8.24.0
@@ -169,12 +169,12 @@ packages:
       - supports-color
     dev: true
 
-  /@gitart/eslint-config-vue/0.2.0_oma37ntcsyoxqn5sr4l7ekf4na:
-    resolution: {integrity: sha512-HjYIBPffOVbb5MCFdcG7daJkeH5WOxySstBNkwpGlkC9aInoqHPvD0QM0RWzjiYVKCWxcrO83XE2HcBs0Tdhtw==}
+  /@gitart/eslint-config-vue/0.2.1_oma37ntcsyoxqn5sr4l7ekf4na:
+    resolution: {integrity: sha512-9fYUfYa+tDOiBybqdiVOTxuZYV8ooIGLiEdHaGvkb2KyV0lYareSFlcAkv+pu4B4RerrQ7g8nSRQjpFd/D2EUw==}
     peerDependencies:
       eslint: '>=8.16.0'
     dependencies:
-      '@gitart/eslint-config-ts': 0.2.0_oma37ntcsyoxqn5sr4l7ekf4na
+      '@gitart/eslint-config-ts': 0.2.1_oma37ntcsyoxqn5sr4l7ekf4na
       eslint: 8.24.0
       eslint-plugin-vue: 9.6.0_eslint@8.24.0
     transitivePeerDependencies:
@@ -547,7 +547,7 @@ packages:
     resolution: {integrity: sha512-W9mfWLHmJhkfAmV+7gDjcHeAWALQtgGT3JErxULl0oz6R6+3ug91I7IErs93eCFhPCZPHBs4QJS7YWEV7A3sxw==}
     dev: true
 
-  /@vuetify/loader-shared/1.7.0_t3dvazyjkhimlko2vtyi5desum:
+  /@vuetify/loader-shared/1.7.0_l2xw63bflzffxrhpro723k3mhy:
     resolution: {integrity: sha512-Db4K67wMhduDsbvdRBYkrYuomti+j0E/1vlz1lnDng5F9LYYBcXa60qypIazVGI6GX/CuY1vshN6XGtGQI4FKg==}
     peerDependencies:
       vue: ^3.0.0
@@ -556,7 +556,7 @@ packages:
       find-cache-dir: 3.3.2
       upath: 2.0.1
       vue: 3.2.40
-      vuetify: 3.0.0-beta.13_32i4yba6tsp4xixiakylwlevny
+      vuetify: 3.0.0-beta.15_32i4yba6tsp4xixiakylwlevny
 
   /@vueuse/core/9.3.0_vue@3.2.40:
     resolution: {integrity: sha512-64Rna8IQDWpdrJxgitDg7yv1yTp41ZmvV8zlLEylK4QQLWAhz1OFGZDPZ8bU4lwcGgbEJ2sGi2jrdNh4LttUSQ==}
@@ -2867,18 +2867,18 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-vuetify/1.0.0_fby4pjkea6piiacainvucdwjti:
+  /vite-plugin-vuetify/1.0.0_nk73svx3lk5g3xliqjozwncx2e:
     resolution: {integrity: sha512-30+W6H//wjOegKCha4wQ3IS+JyXDE6IayL5cK5S4IrM7WIceV/WitnxljbPZHER+Jyl3BGIuYV6nofjMOfRO1g==}
     engines: {node: '>=12'}
     peerDependencies:
       vite: ^2.7.0 || ^3.0.0
       vuetify: ^3.0.0-beta.4
     dependencies:
-      '@vuetify/loader-shared': 1.7.0_t3dvazyjkhimlko2vtyi5desum
+      '@vuetify/loader-shared': 1.7.0_l2xw63bflzffxrhpro723k3mhy
       debug: 4.3.4
       upath: 2.0.1
       vite: 3.1.6_sass@1.55.0
-      vuetify: 3.0.0-beta.13_32i4yba6tsp4xixiakylwlevny
+      vuetify: 3.0.0-beta.15_32i4yba6tsp4xixiakylwlevny
     transitivePeerDependencies:
       - supports-color
       - vue
@@ -2984,18 +2984,15 @@ packages:
       '@vue/server-renderer': 3.2.40_vue@3.2.40
       '@vue/shared': 3.2.40
 
-  /vuetify/3.0.0-beta.13_32i4yba6tsp4xixiakylwlevny:
-    resolution: {integrity: sha512-CgDyKCIBZ0ogKUxRw3gNswx9GA6eSSp7otZcJapWJCVuon/RooQPQjf3bDuRb5ZpJ55NkX13ugjl2nq+b0U8SA==}
+  /vuetify/3.0.0-beta.15_32i4yba6tsp4xixiakylwlevny:
+    resolution: {integrity: sha512-Tw4StO4JJxwzN7RIAJ+nBVTaftlk3TqfqCtMLwJY/SO/ciVru+sHtahOpXIbp8B43d/DIRql3mfnrz1ooTSXtQ==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
-      '@formatjs/intl': ^1.0.0 || ^2.0.0
       vite-plugin-vuetify: ^1.0.0-alpha.12
       vue: ^3.2.0
       vue-i18n: ^9.0.0
       webpack-plugin-vuetify: ^2.0.0-alpha.11
     peerDependenciesMeta:
-      '@formatjs/intl':
-        optional: true
       vite-plugin-vuetify:
         optional: true
       vue-i18n:
@@ -3003,7 +3000,7 @@ packages:
       webpack-plugin-vuetify:
         optional: true
     dependencies:
-      vite-plugin-vuetify: 1.0.0_fby4pjkea6piiacainvucdwjti
+      vite-plugin-vuetify: 1.0.0_nk73svx3lk5g3xliqjozwncx2e
       vue: 3.2.40
 
   /webpack-sources/3.2.3:
