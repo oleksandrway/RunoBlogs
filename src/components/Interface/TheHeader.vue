@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// import moduleName from '`';
 // ...
 </script>
 
@@ -6,7 +7,7 @@
   <VAppBar density="compact">
     <VContainer class="flex items-center py-0">
       <VToolbarTitle>
-        <RouterLink to="/">
+        <RouterLink class="pt-2" to="/">
           Gitart
         </RouterLink>
       </VToolbarTitle>

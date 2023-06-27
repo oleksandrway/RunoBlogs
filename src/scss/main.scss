@@ -1,11 +1,1 @@
-@use 'vuetify' with (
-  $reset: false,
-  $utilities: false,
-  $color-pack: false,
-  $body-font-family: (Montserrat, sans-serif),
-);
-
-.viewer-canvas > img {
-  background: #fff;
-  padding: 10px;
-}
+@import url(./config.scss);
