@@ -14,6 +14,7 @@ module.exports = {
 
       'primary-dark': '#495057',
       'primary-light': '#e5e5e5',
+      'secondary-dark': '#6C757D',
       'orange': '#d4a373',
     },
     screens: {

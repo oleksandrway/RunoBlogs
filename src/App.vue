@@ -6,4 +6,5 @@
   <TheHeader />
   <Promo />
   <Popular />
+  <Editors />
 </template>

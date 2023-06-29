@@ -1,3 +1,17 @@
+
+<script setup lang="ts">
+import type { PropType } from 'vue'
+
+import type { Article } from '@/types'
+
+defineProps({
+  article: {
+    type: Object as PropType<Article>,
+    required: true,
+  },
+})
+</script>
+
 <template>
   <div class=" relative ">
     <div class="absolute top-[20px] right-0 px-[20px] flex gap-[10px] flex-wrap justify-end">
@@ -17,27 +31,14 @@
         >
       </a>
     </div>
-    <p class="mb-[13px]">
+    <p class="mb-[13px] text-secondary-dark">
       {{ article.date }}
     </p>
     <BaseTitle tag="h3" class="mb-[15px] normal">
       {{ article.title }}
     </BaseTitle>
-    <p>
+    <p class="text-secondary-dark">
       {{ article.description }}
     </p>
   </div>
 </template>
-
-<script setup lang="ts">
-import type { PropType } from 'vue'
-
-import type { Article } from '@/types'
-
-defineProps({
-  article: {
-    type: Object as PropType<Article>,
-    required: true,
-  },
-})
-</script>

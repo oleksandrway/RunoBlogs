@@ -55,7 +55,7 @@ const onToggleMenu = () => {
       <a href="#" class="block h-10 w-20 ">
         <img
           class="h-full object-contain"
-          src="/logo.png"
+          src="/logo.svg"
           alt="runo logo"
         >
       </a>

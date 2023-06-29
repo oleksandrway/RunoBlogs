@@ -7,16 +7,20 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    articlesTiles: typeof import('./components/sections/popular/articlesTiles.vue')['default']
-    ArticlesTiles: typeof import('./components/sections/popular/ArticlesTiles.vue')['default']
+    articleslist: typeof import('./components/Interface/articles/articleslist.vue')['default']
+    ArticlesList: typeof import('./components/Interface/articles/ArticlesList.vue')['default']
+    ArticleText: typeof import('./components/Interface/articles/ArticleText.vue')['default']
     articleTile: typeof import('./components/sections/popular/articleTile.vue')['default']
-    ArticleTile: typeof import('./components/sections/popular/ArticleTile.vue')['default']
+    ArticleTile: typeof import('./components/Interface/articles/ArticleTile.vue')['default']
     ArticleTiles: typeof import('./components/sections/popular/ArticleTiles.vue')['default']
     BaseCategoryTag: typeof import('./components/Interface/BaseCategoryTag.vue')['default']
     BaseTitle: typeof import('./components/Interface/BaseTitle.vue')['default']
     BlogsTiles: typeof import('./components/sections/popular/BlogsTiles.vue')['default']
     BlogTile: typeof import('./components/sections/popular/BlogTile.vue')['default']
     CategoryMenu: typeof import('./components/sections/popular/CategoryMenu.vue')['default']
+    Editors: typeof import('./components/sections/editorPick/Editors.vue')['default']
+    EditorsPick: typeof import('./components/sections/editorPick/editorsPick.vue')['default']
+    EditorsTile: typeof import('./components/sections/editorPick/EditorsTile.vue')['default']
     Popular: typeof import('./components/sections/popular/Popular.vue')['default']
     Promo: typeof import('./components/sections/promo/Promo.vue')['default']
     PromoSlide: typeof import('./components/sections/promo/PromoSlide.vue')['default']

@@ -1,6 +1,5 @@
-
 <script setup lang="ts">
-
+// import { articles } from '@//'
 import { articles } from '@/stores/articles'
 
 </script>
@@ -13,21 +12,13 @@ import { articles } from '@/stores/articles'
         size="lg"
         class="mb-7 sm:mb-4 "
       >
-        Popular topics
+        Editor’s Pick
       </BaseTitle>
 
-      <CategoryMenu class="mb-7" />
-      <ArticlesList mode="popular" :articles="articles" />
+      <ArticlesList
+        :articles="articles"
+        mode="editors"
+      />
     </XContainer>
   </section>
 </template>
-
-<style lang="scss" scoped>
-.popular {
-/*   // color: theme('colors.blue.500');
-  // padding: theme('spacing.4');
-
-  // @apply bg-red-500; */
-}
-
-</style>

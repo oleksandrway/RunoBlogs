@@ -18,13 +18,13 @@ const bgUrl = computed(() => {
 <template>
   <div class="promo-slide">
     <XContainer>
-      <div class="max-w-[530px]">
-        <div class="flex gap-2">
+      <div class="max-w-[530px] ">
+        <div class="flex gap-2 mb-3">
           <BaseCategoryTag
             v-for="category in article.categories"
             :key="category"
             :category="category"
-            class="mb-3 px inline-block promo-slide__link"
+            class=" px inline-block"
           />
         </div>
         <a class="promo-slide__link" href="#">
@@ -38,7 +38,7 @@ const bgUrl = computed(() => {
         </a>
         <div class="promo-slide__desc flex  gap-2 items-start ">
           <p>{{ article.date }}</p>
-          <span class="w-14 mt-2 h-px bg-primary-light bg- block" />
+          <span class="w-14 mt-2 h-px bg-primary-light block" />
           <p>
             {{ article.description }}
           </p>
@@ -51,13 +51,11 @@ const bgUrl = computed(() => {
 <style lang="scss" scoped>
  .promo-slide {
     background: v-bind(bgUrl) no-repeat 50%;
-    // background: url(../../../assets/promo.png) no-repeat 50%;
-   background-size: cover;
+    background-size: cover;
     padding-top: 277px;
     padding-bottom: 140px;
 
     &__desc {
-      // color: $text-light-secondary;
       @apply text-primary-light
     }
   }
@@ -66,7 +64,6 @@ const bgUrl = computed(() => {
     display: block;
     transition: all .3s;
     &:hover {
-      // color:red;
       transform: scale(1.01);
     }
   }
