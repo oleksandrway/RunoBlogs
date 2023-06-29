@@ -1,20 +1,29 @@
 <script setup lang="ts">
-defineProps({
+import type { PropType } from 'vue'
+
+const props = defineProps({
   tag: {
-    type: String,
+    type: String as PropType<'h1'| 'h2'| 'h3'| 'h4'| 'h5'| 'h6' >,
     required: true,
-    validator(val: string) {
-      return ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(val)
-    },
+
+  },
+  size: {
+    type: String as PropType<'lg' | 'base' >,
+    default: '',
 
   },
 })
+
+const classes = computed(() => [
+  'base-title',
+  `base-title--size-${props.size}`,
+])
 </script>
 
 <template>
   <Component
     :is="tag"
-    class="font-bold"
+    :class="classes"
   >
     <slot />
   </Component>
@@ -22,24 +31,28 @@ defineProps({
 
 <style lang="scss" scoped>
 
-.big {
+.base-title {
+  font-weight: bold;
+}
+
+.base-title--size-lg {
   font-size: 36px;
   line-height: normal;
 }
 
-.normal {
+.base-title--size-base {
   font-size: 18px;
   line-height: 25px;
 }
 
 @screen sm {
-  .big {
-  font-size: 24px;
-}
+  .base-title--size-lg {
+    font-size: 24px;
+  }
 
-.normal {
-  font-size: 14px;
-}
+  .base-title--size-base {
+    font-size: 14px;
+  }
 }
 
 </style>

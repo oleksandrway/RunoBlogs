@@ -6,18 +6,24 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      lora: ['Lora', 'serif'],
+      roboto: ['Roboto', 'serif'],
+    },
+    colors: {
+
+      'primary-dark': '#495057',
+      'primary-light': '#e5e5e5',
+      'orange': '#d4a373',
+    },
     screens: {
       xl: { max: '1279px' },
-      // => @media (max-width: 1279px) { ... }
 
       lg: { max: '1023px' },
-      // => @media (max-width: 1023px) { ... }
 
       md: { max: '767px' },
-      // => @media (max-width: 767px) { ... }
 
       sm: { max: '639px' },
-      // => @media (max-width: 639px) { ... }
     },
   },
   plugins: [],

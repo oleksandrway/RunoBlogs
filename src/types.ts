@@ -1,4 +1,4 @@
-export interface Blog {
+export interface Article {
   imgUrl: string
   categories: [string]| [string, string]| [string, string, string]
   date: string

@@ -1,91 +1,34 @@
 
 <script setup lang="ts">
-import type { Blog } from '@/types'
 
-const blogs: Blog[] = [
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '1',
-  },
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '2',
-  },
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '3',
-  },
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '4',
-  },
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '5gfd',
-  },
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '6gfd',
-  },
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '7gfd',
-  },
-  {
-    imgUrl: '/popular-tile-img.png',
-    categories: ['Adventure', 'Adventure', 'Adventure'],
-    date: '08.08.2021',
-    title: 'Dream destinations to visit this year in Paris',
-    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
-    id: '8gfd',
-  },
-]
+import { articles } from '@/stores/articles'
+
 </script>
 
 <template>
-  <section class=" popular py-[147px] md:py-[100px] sm:py-[60px]">
+  <section class="popular py-40 md:py-25 sm:py-16 ">
     <XContainer>
-      <BaseTitle tag="h2" class="big mb-[28px] sm:mb-[15px]">
+      <BaseTitle
+        tag="h2"
+        size="lg"
+        class="mb-7 sm:mb-4 "
+      >
         Popular topics
       </BaseTitle>
 
-      <CategoryMenu class="mb-[27px]" />
+      <CategoryMenu class="mb-7" />
 
-      <BlogsTiles :blogs="blogs" />
+      <ArticlesTiles :articles="articles" />
     </XContainer>
   </section>
 </template>
 
 <style lang="scss" scoped>
 .popular {
-  color: $color-primary-dark;
+/*   // color: theme('colors.blue.500');
+  // padding: theme('spacing.4');
+
+  // @apply bg-red-500; */
 }
+
 </style>

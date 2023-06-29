@@ -41,7 +41,7 @@ defineProps({
 
   }
   .dark {
-    color: $color-primary-dark ;
+    @apply text-primary-dark;
     background-color: transparent;
     box-shadow: inset  0 0 0 1px #E5E5E5;
     &:hover {

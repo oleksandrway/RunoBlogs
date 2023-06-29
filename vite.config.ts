@@ -10,7 +10,7 @@ import vueRouter from 'unplugin-vue-router/vite'
 
 export default defineConfig(({ mode }) => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) }
-  const configFile = path.resolve(fileURLToPath(new URL('.', import.meta.url)), './src/scss/settings.scss')
+  // const configFile = path.resolve(fileURLToPath(new URL('.', import.meta.url)), './src/scss/settings.scss')
 
   return {
     css: {
@@ -22,6 +22,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     plugins: [
+
       vue(),
       vueRouter({
         routesFolder: 'src/views',

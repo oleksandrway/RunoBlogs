@@ -1,0 +1,68 @@
+import type { article } from '@/types'
+
+export const articles: article[] = [
+  {
+    imgUrl: '/popular-tile-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '1',
+  },
+  {
+    imgUrl: '/promo-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '2',
+  },
+  {
+    imgUrl: '/popular-tile-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '3',
+  },
+  {
+    imgUrl: '/popular-tile-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '4',
+  },
+  {
+    imgUrl: '/popular-tile-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '5gfd',
+  },
+  {
+    imgUrl: '/popular-tile-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '6gfd',
+  },
+  {
+    imgUrl: '/popular-tile-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '7gfd',
+  },
+  {
+    imgUrl: '/popular-tile-img.png',
+    categories: ['Adventure', 'Adventure', 'Adventure'],
+    date: '08.08.2021',
+    title: 'Dream destinations to visit this year in Paris',
+    description: 'Progressively incentivize cooperative systems through technically sound functionaliti es. Credibly productivate seamless data with flexible schemas.',
+    id: '8gfd',
+  },
+]

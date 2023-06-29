@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const categories = [
-  'Adventure',
-  'Travel',
-  'Fashion',
-  'Technology',
-  'Branding',
+  { id: 1, name: 'Adventure' },
+  { id: 1, name: 'Travel' },
+  { id: 1, name: 'Fashion' },
+  { id: 1, name: 'Technology' },
+  { id: 1, name: 'Branding' },
 ]
 </script>
 
@@ -17,35 +17,15 @@ const categories = [
     </li>
     <li
       v-for="category in categories"
-      :key="category"
+      :key="category.id"
     >
       <button
 
         class="category-menu__btn"
       >
-        {{ category }}
+        {{ category.name }}
       </button>
     </li>
-    <!--  <li>
-      <button class="category-menu__btn">
-        Travel
-      </button>
-    </li>
-    <li>
-      <button class="category-menu__btn">
-        Fashion
-      </button>
-    </li>
-    <li>
-      <button class="category-menu__btn">
-        Technology
-      </button>
-    </li>
-    <li>
-      <button class="category-menu__btn">
-        Branding
-      </button>
-    </li> -->
     <li class="ml-auto md:hidden">
       <button class="category-menu__btn">
         View All
@@ -56,10 +36,14 @@ const categories = [
 
 <style lang="scss" scoped>
 .category-menu__btn--active {
-   color: $color-orange;
+   @apply text-orange
 }
 
 .category-menu__btn {
   padding: 5px;
+  transition: all .3s;
+  &:hover {
+   @apply text-orange
+  }
 }
 </style>

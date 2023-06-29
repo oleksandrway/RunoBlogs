@@ -3,5 +3,7 @@
 </script>
 
 <template>
+  <TheHeader />
+  <Promo />
   <Popular />
 </template>
