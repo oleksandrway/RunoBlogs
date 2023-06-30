@@ -7,20 +7,14 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    articleslist: typeof import('./components/Interface/articles/articleslist.vue')['default']
     ArticlesList: typeof import('./components/Interface/articles/ArticlesList.vue')['default']
-    ArticleText: typeof import('./components/Interface/articles/ArticleText.vue')['default']
-    articleTile: typeof import('./components/sections/popular/articleTile.vue')['default']
     ArticleTile: typeof import('./components/Interface/articles/ArticleTile.vue')['default']
-    ArticleTiles: typeof import('./components/sections/popular/ArticleTiles.vue')['default']
     BaseCategoryTag: typeof import('./components/Interface/BaseCategoryTag.vue')['default']
     BaseTitle: typeof import('./components/Interface/BaseTitle.vue')['default']
-    BlogsTiles: typeof import('./components/sections/popular/BlogsTiles.vue')['default']
-    BlogTile: typeof import('./components/sections/popular/BlogTile.vue')['default']
     CategoryMenu: typeof import('./components/sections/popular/CategoryMenu.vue')['default']
     Editors: typeof import('./components/sections/editorPick/Editors.vue')['default']
-    EditorsPick: typeof import('./components/sections/editorPick/editorsPick.vue')['default']
     EditorsTile: typeof import('./components/sections/editorPick/EditorsTile.vue')['default']
+    Favorite: typeof import('./components/sections/Favorite.vue')['default']
     Footer: typeof import('./components/sections/Footer.vue')['default']
     Popular: typeof import('./components/sections/popular/Popular.vue')['default']
     Promo: typeof import('./components/sections/promo/Promo.vue')['default']
@@ -28,9 +22,6 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheHeader: typeof import('./components/Interface/TheHeader.vue')['default']
-    TheXContainer: typeof import('./components/Interface/TheXContainer.vue')['default']
-    TilesList: typeof import('./components/sections/popular/TilesList.vue')['default']
-    Title: typeof import('./components/Interface/title.vue')['default']
     XContainer: typeof import('./components/Interface/XContainer.vue')['default']
   }
 }

@@ -89,6 +89,7 @@ const tileClass = computed(() => {
     position: absolute;
     bottom: 0;
     // color:red;
+    max-width: 420px;
     padding: 40px;
   }
 
