@@ -21,6 +21,7 @@ declare module '@vue/runtime-core' {
     Editors: typeof import('./components/sections/editorPick/Editors.vue')['default']
     EditorsPick: typeof import('./components/sections/editorPick/editorsPick.vue')['default']
     EditorsTile: typeof import('./components/sections/editorPick/EditorsTile.vue')['default']
+    Footer: typeof import('./components/sections/Footer.vue')['default']
     Popular: typeof import('./components/sections/popular/Popular.vue')['default']
     Promo: typeof import('./components/sections/promo/Promo.vue')['default']
     PromoSlide: typeof import('./components/sections/promo/PromoSlide.vue')['default']

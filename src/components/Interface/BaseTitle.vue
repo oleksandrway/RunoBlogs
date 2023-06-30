@@ -51,7 +51,7 @@ const classes = computed(() => [
   }
 
   .base-title--size-base {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 

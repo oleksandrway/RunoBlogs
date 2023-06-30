@@ -7,4 +7,6 @@
   <Promo />
   <Popular />
   <Editors />
+
+  <Footer />
 </template>
