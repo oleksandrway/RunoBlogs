@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { PropType } from 'vue'
 
-import type { Article } from '@/types'
+import type { Article } from '@/project-types'
 
 const props = defineProps({
   article: {
@@ -105,3 +105,4 @@ const tileClass = computed(() => {
 }
 }
 </style>
+@/project-types

@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import type { PropType } from 'vue'
 
-import type { Article } from '@/types'
+import type { Article } from '@/project-types'
 
 defineProps({
   article: {
@@ -42,3 +42,4 @@ defineProps({
     </p>
   </div>
 </template>
+@/project-types

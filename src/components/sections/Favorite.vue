@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { PropType } from 'vue'
 
-import type { Article } from '@/types'
+import type { Article } from '@/project-types'
 
 const props = defineProps({
   article: {
@@ -71,7 +71,8 @@ const bgUrl = computed(() => {
   }
 
   @screen sm {
-    .favorite {
+  .favorite {
   padding: 100px 0 120px 0 ;}
   }
 </style>
+@/project-types

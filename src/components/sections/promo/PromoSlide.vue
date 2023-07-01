@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { PropType } from 'vue'
 
-import type { Article } from '@/types'
+import type { Article } from '@/project-types'
 
 const props = defineProps({
   article: {
@@ -36,7 +36,7 @@ const bgUrl = computed(() => {
             {{ article.title }}
           </BaseTitle>
         </a>
-        <div class="promo-slide__desc flex  gap-2 items-start ">
+        <div class="promo-slide__desc  ">
           <p>{{ article.date }}</p>
           <span class="w-14 mt-2 h-px bg-primary-light block" />
           <p>
@@ -56,7 +56,8 @@ const bgUrl = computed(() => {
     padding-bottom: 140px;
 
     &__desc {
-      @apply text-primary-light
+      @apply text-primary-light flex  gap-2 items-start
+
     }
   }
 
@@ -68,3 +69,4 @@ const bgUrl = computed(() => {
     }
   }
 </style>
+@/project-types

@@ -13,14 +13,14 @@ export default defineConfig(({ mode }) => {
   // const configFile = path.resolve(fileURLToPath(new URL('.', import.meta.url)), './src/scss/settings.scss')
 
   return {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          // implementation: sass,
-          additionalData: '@import "@/scss/variables.scss";',
-        },
-      },
-    },
+    // css: {
+    //   preprocessorOptions: {
+    //     scss: {
+    //       // implementation: sass,
+    //       additionalData: '@import "@/scss/variables.scss";',
+    //     },
+    //   },
+    // },
     plugins: [
 
       vue(),

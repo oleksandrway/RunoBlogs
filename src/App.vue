@@ -5,7 +5,9 @@ import { articles } from '@/stores/articles'
 <template>
   <TheHeader />
   <Promo />
+  <Article :article="articles[1]" />
   <Popular />
+
   <Favorite :article="articles[1]" />
   <Editors />
 

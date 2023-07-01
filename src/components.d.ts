@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Article: typeof import('./components/sections/Article.vue')['default']
     ArticlesList: typeof import('./components/Interface/articles/ArticlesList.vue')['default']
     ArticleTile: typeof import('./components/Interface/articles/ArticleTile.vue')['default']
     BaseCategoryTag: typeof import('./components/Interface/BaseCategoryTag.vue')['default']
@@ -15,7 +16,11 @@ declare module '@vue/runtime-core' {
     Editors: typeof import('./components/sections/editorPick/Editors.vue')['default']
     EditorsTile: typeof import('./components/sections/editorPick/EditorsTile.vue')['default']
     Favorite: typeof import('./components/sections/Favorite.vue')['default']
-    Footer: typeof import('./components/sections/Footer.vue')['default']
+    Footer: typeof import('./components/sections/footer/Footer.vue')['default']
+    FooterAdress: typeof import('./components/sections/footer/FooterAdress.vue')['default']
+    FooterContacts: typeof import('./components/sections/footer/FooterContacts.vue')['default']
+    FooterMenu: typeof import('./components/sections/footer/FooterMenu.vue')['default']
+    FooterSocial: typeof import('./components/sections/footer/FooterSocial.vue')['default']
     Popular: typeof import('./components/sections/popular/Popular.vue')['default']
     Promo: typeof import('./components/sections/promo/Promo.vue')['default']
     PromoSlide: typeof import('./components/sections/promo/PromoSlide.vue')['default']

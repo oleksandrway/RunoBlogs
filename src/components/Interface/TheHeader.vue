@@ -148,6 +148,7 @@ const onToggleMenu = () => {
     top: 58px;
     width: 100%;
     background: rgba(0,0,0,.2);
+    align-items: start;
 
   }
 
@@ -176,7 +177,6 @@ const onToggleMenu = () => {
    }
 
   .header-menu--active .header-menu__list {
-      align-items: start;
     }
   .header-menu--active .header-menu__item > * {
       &:after {
